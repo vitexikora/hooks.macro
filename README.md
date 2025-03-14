@@ -1,6 +1,10 @@
+**Forked from hooks.macro to use in SWC compiled toolchain.**
+___
+___
+
 # Hooks’ Macro :umbrella:
 
-> Babel Macros for React Hooks automatic memoization invalidation.
+> ~~Babel~~ **SWC** Macros for React Hooks automatic memoization invalidation.
 
 - [Features](#features)
 - [Roadmap](#roadmap-)
@@ -48,7 +52,7 @@
 
 ## Installation
 
-Requires [`babel-plugin-macros`](https://www.npmjs.com/package/babel-plugin-macros), which is already configured for you if you are using Create React App v2+.
+~~Requires [`babel-plugin-macros`](https://www.npmjs.com/package/babel-plugin-macros), which is already configured for you if you are using Create React App v2+~~
 
 ```
 npm install --dev hooks.macro
